@@ -5,7 +5,7 @@ import { CssStyle } from '@ladifire-opensource/stylex/global';
 
 const TypedWrapper: React.FC<Props> = ({ xstyle, options }) => {
   const _xstyle: any = xstyle;
-  const typeTarget = useRef<HTMLInputElement | null>(null);
+  const typeTarget = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     const typed = new Typed((typeTarget.current == null ? "" : typeTarget.current), options);
