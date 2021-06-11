@@ -1,0 +1,22 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap');
+:root {
+  --dark-background-color-black: #1b1b1b;
+  --dark-background-color-blue: #233042;
+  --dark-background-color-gray: #112541;
+  --dark-text-color-white: #eeeeee;
+  --dark-shadow-light: #181818;
+  --main-font: Spartan, Helvetica, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
