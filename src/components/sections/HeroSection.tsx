@@ -1,6 +1,7 @@
 import React from 'react';
 import TypedWrapper from '../typed_wrapper';
-import stylex from "@ladifire-opensource/stylex";
+import stylex from '@ladifire-opensource/stylex';
+import calculateTextWidth from 'calculate-text-width';
 
 const styles = stylex.create({
   section: {
